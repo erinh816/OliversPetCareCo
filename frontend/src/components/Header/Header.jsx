@@ -55,7 +55,7 @@ const Header = () => {
 
           {/* logo */}
           <div>
-            <img src={logo} alt="" className="max-w-20"/>
+            <img src={logo} alt="" className="w-45 h-20"/>
           </div>
 
           {/* menu */}

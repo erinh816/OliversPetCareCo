@@ -15,7 +15,7 @@ const Home = () => {
           <div>
             <div className="lg:w-[570px]">
               <h1 className="text=[36px] leading-[46px] text-headingColor font-[800] md:text-[60px] md:leading-[70px]">
-                We help pets to heve a happier and healthier life
+                We help pets <br/> have a happier <br/>and healthier life
               </h1>
               <p className="text__para"> At Oliver's Pet Care Co., we're dedicated to providing top-quality care for your beloved pets. With a team of passionate professionals and personalized services tailored to meet your pet's needs, we strive to ensure their happiness, health, and safety.
               </p>
@@ -34,7 +34,7 @@ const Home = () => {
                 </div>
                 <div>
                   <h2 className="text-[36px] leading-[56px] lg:text-[44px] lg:leading-[54px] font-[700] text-headingColor">
-                    3
+                    3~
                   </h2>
                   <span className="w-[100px] h-2 bg-purpleColor rounded-full block mt-[-14px]">
                   </span>
