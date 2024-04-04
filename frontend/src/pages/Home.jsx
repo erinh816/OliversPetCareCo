@@ -3,9 +3,11 @@ import heroImage02 from "../assets/images/heroimg02.jpg";
 import heroImage03 from "../assets/images/heroimg03.jpg";
 import icon01 from "../assets/images/icon1.webp";
 import icon02 from "../assets/images/icon2.webp";
-import icon03 from "../assets/images/icon3.webp";
+import icon03 from "../assets/images/icon3.png";
 import { Link } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
+
+import About from "../components/About/About";
 
 const Home = () => {
   return (
@@ -22,7 +24,7 @@ const Home = () => {
               <h1 className="text=[36px] leading-[46px] text-headingColor font-[800] md:text-[60px] md:leading-[70px]">
                 We help pets <br/> have a happier <br/>and healthier life
               </h1>
-              <p className="text__para"> At Oliver's Pet Care Co., we're dedicated to providing top-quality care for your beloved pets. With a team of passionate professionals and personalized services tailored to meet your pet's needs, we strive to ensure their happiness, health, and safety.
+              <p className="text__para"> At Oliver&apos;s Pet Care Co., we&apos;re dedicated to providing top-quality care for your beloved pets. With a team of passionate professionals and personalized services tailored to meet your pet&apos;s needs, we strive to ensure their happiness, health, and safety.
               </p>
 
               <button className="btn">Request an Appointment</button>
@@ -136,6 +138,10 @@ const Home = () => {
 
       </div>
     </section>
+
+    {/* ============= about section start =============== */}
+    <About/>
+    {/* ============= about section end ================= */}
 
     </>
   )
