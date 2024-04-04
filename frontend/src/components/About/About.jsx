@@ -1,6 +1,7 @@
 import aboutImg from "../../assets/images/aboutImage.jpeg";
 import aboutCardImg from "../../assets/images/aboutCard/png/logo-color1.png";
 import { Link } from "react-router-dom";
+//TODO:aboutImg needs to be replaced
 
 const About = () => {
   return (

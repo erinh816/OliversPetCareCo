@@ -8,6 +8,8 @@ import { Link } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
 
 import About from "../components/About/About";
+import ServiceList from "../components/Services/ServiceList"
+//TODO:icon 1~3 need to be replaced
 
 const Home = () => {
   return (
@@ -142,6 +144,19 @@ const Home = () => {
     {/* ============= about section start =============== */}
     <About/>
     {/* ============= about section end ================= */}
+
+    {/* ============= services section start =============== */}
+      <section>
+        <div className="container">
+          <div className="xl:w-[470px] mx-auto">
+            <h2 className="heading text-center">Our Services</h2>
+            <p className="text-para text-center">Best local pet care for the community</p>
+          </div>
+          <ServiceList/>
+        </div>
+      
+      </section>
+    {/* ============= services section end ================= */}
 
     </>
   )
