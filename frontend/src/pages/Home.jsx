@@ -7,6 +7,7 @@ import icon03 from "../assets/images/icon3.png";
 import featureImg from "../assets/images/featureImg.jpg";
 import videoIcon from "../assets/images/video-icon.png";
 import avatarIcon from "../assets/images/gamer.png";
+import faqImg from "../assets/images/faqimg.jpg";
 import { Link } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
 
@@ -14,6 +15,7 @@ import About from "../components/About/About";
 import ServiceList from "../components/Services/ServiceList"
 //TODO:icon 1~3 need to be replaced
 import StaffList from "../components/Staff/StaffList";
+import FaqList from "../components/Faq/FaqList";
 
 const Home = () => {
   return (
@@ -216,7 +218,7 @@ const Home = () => {
     </section>
     {/* ============= feature section end ================= */}
 
-    {/* Staff Section */}
+    {/* Staff section start*/}
     <section>
       <div className="container">
         <div className="xl:w-[470px] mx-auto">
@@ -226,7 +228,26 @@ const Home = () => {
         <StaffList/>
       </div>
     </section>
-    {/* Staff Section Ends */}
+    {/* Staff section end */}
+
+    {/* FAQ section start */}
+    <section>
+      <div className="container">
+        <div className="flex justify-between gap-[50px] lg:gap-0">
+          <div className="w-1/2 hidden md:block">
+            <img src={faqImg} alt="" className="rounded-[30px] w-3/4"/>
+          </div>
+
+          <div className="w-full md:w-1/2">
+            <h2 className="heading">Most questions by our beloved pet owners</h2>
+            <FaqList/>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    {/* FAQ section end */}
     </>
   )
 }

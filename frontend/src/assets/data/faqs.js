@@ -24,4 +24,9 @@ export const faqs = [
     content:
       "Moving to a new home can be stressful for pets. To help them adjust, provide a quiet and secure space with familiar items like their bed, toys, and food bowls. Gradually introduce them to their new surroundings and establish a routine for feeding, playtime, and potty breaks. Offer plenty of love, patience, and positive reinforcement to help your pet feel safe and secure in their new environment.",
   },
+  {
+    question: "Do you provide overnight care?",
+    content:
+      "Yes",
+  },
 ];
