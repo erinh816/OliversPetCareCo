@@ -2,36 +2,35 @@ import staffImg01 from "../images/staff-img01.jpg";
 import staffImg02 from "../images/staff-img02.jpg";
 import staffImg03 from "../images/staff-img03.jpg";
 
-//TODO: update array name
-export const doctors = [
+export const staff = [
   {
     id: "01",
     name: "Oliver",
     specialty: "Medical Care, Dog Walking, Brooming",
     avgRating: 4.9,
-    totalRating: 272,
+    totalRating: 120,
     photo: staffImg01,
-    totalPatients: 1500,
-    hospital: "Oliver's Pet Care Co.",
+    experience: 25,
+    location: "Oliver's Pet Care Co. Brooklyn",
   },
   {
     id: "02",
     name: "Timmy",
     specialty: "Dog Walking",
     avgRating: 4.8,
-    totalRating: 272,
+    totalRating: 66,
     photo: staffImg02,
-    totalPatients: 1500,
-    hospital: "Oliver's Pet Care Co.",
+    experience: 6,
+    location: "Oliver's Pet Care Co. Brooklyn",
   },
   {
     id: "03",
     name: "Tommy",
     specialty: "Pet Sitting",
     avgRating: 4.8,
-    totalRating: 272,
+    totalRating: 102,
     photo: staffImg03,
-    totalPatients: 1500,
-    hospital: "Oliver's Pet Care Co.",
+    experience: 11,
+    location: "Oliver's Pet Care Co. Manhattan",
   },
 ];

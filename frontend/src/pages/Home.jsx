@@ -6,13 +6,14 @@ import icon02 from "../assets/images/icon2.webp";
 import icon03 from "../assets/images/icon3.png";
 import featureImg from "../assets/images/featureImg.jpg";
 import videoIcon from "../assets/images/video-icon.png";
-import avatarIcon from "../assets/images/avatar-icon.png";
+import avatarIcon from "../assets/images/gamer.png";
 import { Link } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
 
 import About from "../components/About/About";
 import ServiceList from "../components/Services/ServiceList"
 //TODO:icon 1~3 need to be replaced
+import StaffList from "../components/Staff/StaffList";
 
 const Home = () => {
   return (
@@ -202,7 +203,7 @@ const Home = () => {
               </div>
 
               <div className="flex items-center gap-[6px] lg:gap-[10px] mt-2 lg:mt-[18px]">
-                <img src={avatarIcon} alt=""/>
+                <img src={avatarIcon} alt="" className="w-[40px]"/>
                 <h4 className="text-[10px] leading-3 lg:text-[16px] lg:leading-[22px] font-[700] text-headingColor">Tommy </h4>
               </div>
 
@@ -214,6 +215,18 @@ const Home = () => {
 
     </section>
     {/* ============= feature section end ================= */}
+
+    {/* Staff Section */}
+    <section>
+      <div className="container">
+        <div className="xl:w-[470px] mx-auto">
+            <h2 className="heading text-center">Our Great Caretakers</h2>
+            <p className="text-para text-center">Our mission is to make your pets happy</p>
+        </div>
+        <StaffList/>
+      </div>
+    </section>
+    {/* Staff Section Ends */}
     </>
   )
 }
@@ -222,3 +235,4 @@ export default Home;
 
 //I added border to the feature section appointment card because the image I use has too light background color
 //TODO:appointment card position is a bit off when having the smallest screen. It's supposed to be overlapped with the image but it's set aside
+//TODO:added witdth for avatar, might cause problem

@@ -1,6 +1,6 @@
 import {useEffect, useRef} from "react";
 import logo from "../../assets/images/logo.png";
-import userImg from "../../assets/images/avatar-icon.png";
+import userImg from "../../assets/images/gamer.png";
 import {NavLink, Link} from "react-router-dom";
 import {BiMenu} from "react-icons/bi";
 
