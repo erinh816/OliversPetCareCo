@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
 import "swiper/css/pagination";
-import patientAvatar from "../../assets/images/patient-avatar.png";
+import customerAvatar from "../../assets/images/customer-avatar.png";
 import {HiStar} from "react-icons/hi";
 
 const Testimonial = () => {
@@ -27,7 +27,7 @@ const Testimonial = () => {
             <SwiperSlide>
                 <div className="py-[30px] px-5 rounded-3">
                     <div className="flex items-center gap-[13px]">
-                        <img src={patientAvatar} alt=""/>
+                        <img src={customerAvatar} alt="" className="w-[50px]"/>
                         <div>
                             <h4 className="text-[18px] leading-[30px] font-semibold text-headingColor">
                                 CocoMelon
@@ -51,7 +51,7 @@ const Testimonial = () => {
             <SwiperSlide>
                 <div className="py-[30px] px-5 rounded-3">
                     <div className="flex items-center gap-[13px]">
-                        <img src={patientAvatar} alt=""/>
+                        <img src={customerAvatar} alt="" className="w-[50px]"/>
                         <div>
                             <h4 className="text-[18px] leading-[30px] font-semibold text-headingColor">
                                 CocoMelon
@@ -75,7 +75,7 @@ const Testimonial = () => {
             <SwiperSlide>
                 <div className="py-[30px] px-5 rounded-3">
                     <div className="flex items-center gap-[13px]">
-                        <img src={patientAvatar} alt=""/>
+                        <img src={customerAvatar} alt="" className="w-[50px]"/>
                         <div>
                             <h4 className="text-[18px] leading-[30px] font-semibold text-headingColor">
                                 CocoMelon
@@ -99,7 +99,7 @@ const Testimonial = () => {
             <SwiperSlide>
                 <div className="py-[30px] px-5 rounded-3">
                     <div className="flex items-center gap-[13px]">
-                        <img src={patientAvatar} alt=""/>
+                        <img src={customerAvatar} alt="" className="w-[50px]"/>
                         <div>
                             <h4 className="text-[18px] leading-[30px] font-semibold text-headingColor">
                                 CocoMelon
@@ -123,7 +123,7 @@ const Testimonial = () => {
             <SwiperSlide>
                 <div className="py-[30px] px-5 rounded-3">
                     <div className="flex items-center gap-[13px]">
-                        <img src={patientAvatar} alt=""/>
+                        <img src={customerAvatar} alt="" className="w-[50px]"/>
                         <div>
                             <h4 className="text-[18px] leading-[30px] font-semibold text-headingColor">
                                 CocoMelon
