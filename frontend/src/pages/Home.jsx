@@ -16,6 +16,7 @@ import ServiceList from "../components/Services/ServiceList"
 //TODO:icon 1~3 need to be replaced
 import StaffList from "../components/Staff/StaffList";
 import FaqList from "../components/Faq/FaqList";
+import Testimonial from "../components/Testimonial/Testimonial";
 
 const Home = () => {
   return (
@@ -248,6 +249,18 @@ const Home = () => {
       </div>
     </section>
     {/* FAQ section end */}
+
+    {/* Testimonial section start */}
+    <section>
+      <div className="container">
+        <div className="xl:w-[470px] mx-auto">
+            <h2 className="heading text-center">What our customers say</h2>
+            <p className="text-para text-center">Our mission is to make your pets happy</p>
+        </div>
+        <Testimonial/>
+      </div>
+    </section>
+    {/* Testimonial section end */}
     </>
   )
 }
