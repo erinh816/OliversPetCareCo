@@ -6,7 +6,7 @@ export const staff = [
   {
     id: "01",
     name: "Oliver",
-    specialty: "Medical Care, Dog Walking, Brooming",
+    specialty: "Medical Care, Brooming",
     avgRating: 4.9,
     totalRating: 120,
     photo: staffImg01,
@@ -16,7 +16,7 @@ export const staff = [
   {
     id: "02",
     name: "Timmy",
-    specialty: "Dog Walking",
+    specialty: "Dog Walking, Brooming",
     avgRating: 4.8,
     totalRating: 66,
     photo: staffImg02,
@@ -25,7 +25,7 @@ export const staff = [
   },
   {
     id: "03",
-    name: "Tommy",
+    name: "Bobby",
     specialty: "Pet Sitting",
     avgRating: 4.8,
     totalRating: 102,
