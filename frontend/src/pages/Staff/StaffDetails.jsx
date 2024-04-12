@@ -1,6 +1,8 @@
 import staffImg01 from "../../assets/images/staff-img01.jpg";
 import starIcon from "../../assets/images/Star.png";
 import { useState } from "react";
+import StaffAbout from "./StaffAbout";
+import StaffFeedback from "./StaffFeedback";
 
 const StaffDetails = () => {
 
@@ -55,7 +57,8 @@ const StaffDetails = () => {
 
             {/*  */}
             <div className="mt-[50px]">
-              
+              {tab==="about" && <StaffAbout/>}
+              {tab==="feedback" && <StaffFeedback/>}
             </div>
 
 
