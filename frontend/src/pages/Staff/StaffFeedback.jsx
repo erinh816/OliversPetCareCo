@@ -39,6 +39,8 @@ const StaffFeedback = () => {
         <button className="btn" onClick={()=>setShowFeedbackForm(true)}>Give Feedback</button>
       </div>}
 
+      {showFeedbackForm && <FeedbackForm/>}
+
     </>
   )
 }

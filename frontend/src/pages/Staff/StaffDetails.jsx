@@ -55,7 +55,7 @@ const StaffDetails = () => {
               </button>
             </div>
 
-            {/*  */}
+            {/* about the staff and feedback section */}
             <div className="mt-[50px]">
               {tab==="about" && <StaffAbout/>}
               {tab==="feedback" && <StaffFeedback/>}
