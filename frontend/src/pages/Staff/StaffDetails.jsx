@@ -3,6 +3,7 @@ import starIcon from "../../assets/images/Star.png";
 import { useState } from "react";
 import StaffAbout from "./StaffAbout";
 import StaffFeedback from "./StaffFeedback";
+import StaffSidePanel from "./StaffSidePanel";
 
 const StaffDetails = () => {
 
@@ -65,7 +66,10 @@ const StaffDetails = () => {
 
           </div>
 
-          <div></div>
+          {/* last div takes 2 so this will automatically takes the remaining 1 column */}
+          <div>
+            <StaffSidePanel />
+          </div>
 
         </div>
       </div>

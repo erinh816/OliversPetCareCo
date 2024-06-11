@@ -2,6 +2,9 @@ import {useState} from "react";
 import { AiOutlineMinus, AiOutlinePlus} from "react-icons/ai";
 
 const FaqItem = ({item}) => {
+  //because when pass item down from FaqList, we don't define what prop types are expected
+  //It's a ESLint thing
+  //can solve it by installing prop-types package
 
   const [isOpen, setIsOpen] = useState(false);
 
