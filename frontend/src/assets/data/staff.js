@@ -1,4 +1,4 @@
-import staffImg01 from "../images/staff-img01.jpg";
+import staffImg01 from "../images/ceo.jpg";
 import staffImg02 from "../images/staff-img02.jpg";
 import staffImg03 from "../images/staff-img03.jpg";
 
@@ -19,7 +19,7 @@ export const staff = [
     specialty: "Dog Walking, Brooming",
     avgRating: 4.8,
     totalRating: 66,
-    photo: staffImg02,
+    photo: staffImg01,
     experience: 6,
     location: "Oliver's Pet Care Co. Brooklyn",
   },
@@ -29,7 +29,7 @@ export const staff = [
     specialty: "Pet Sitting",
     avgRating: 4.8,
     totalRating: 102,
-    photo: staffImg03,
+    photo: staffImg01,
     experience: 11,
     location: "Oliver's Pet Care Co. Manhattan",
   },
